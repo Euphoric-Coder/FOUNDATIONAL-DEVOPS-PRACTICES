@@ -1,0 +1,112 @@
+<!-- 
+    Student Name: Sagnik Dey
+    BITS Student ID: 2023EBCS536 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BITS Pilani | Student Portal</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background: linear-gradient(120deg, #0b7ee9, #4f46e5, #050c9c);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+      }
+
+      .container {
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(15px);
+        border-radius: 25px;
+        padding: 50px;
+        width: 90%;
+        max-width: 600px;
+        text-align: center;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        border: 1.5px solid rgba(255, 255, 255, 0.2);
+      }
+
+      .container h1 {
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+
+      .container p {
+        font-size: 16px;
+        color: #e0e6ff;
+        margin-bottom: 40px;
+      }
+
+      .btn {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        background: linear-gradient(90deg, #2f4d8a, #0b7ee9);
+        padding: 15px 35px;
+        border-radius: 40px;
+        font-weight: 500;
+        font-size: 16px;
+        transition: all 0.3s ease;
+        margin: 10px;
+        border: 2px solid transparent;
+      }
+
+      .btn:hover {
+        background: transparent;
+        border-color: #fff;
+        transform: scale(1.05);
+      }
+
+      .footer {
+        margin-top: 40px;
+        font-size: 14px;
+        color: #c7d2fe;
+      }
+
+      @media (max-width: 500px) {
+        .container {
+          padding: 30px;
+        }
+        .container h1 {
+          font-size: 26px;
+        }
+        .btn {
+          padding: 12px 28px;
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>BITS Pilani Student Portal</h1>
+      <p>
+        Welcome! Please choose an option below to continue with your
+        application or view your student ID card.
+      </p>
+
+      <a href="StudentApp.html" class="btn">Open Student Application</a>
+      <a href="IDCard.html" class="btn">View ID Card</a>
+
+      <div class="footer">
+        <p>© 2025 Sagnik Dey | BITS Pilani | ID: 2023EBCS536</p>
+      </div>
+    </div>
+  </body>
+</html>
